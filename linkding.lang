@@ -4,96 +4,96 @@
 name = "Linkding"
 auth = "sissbruecker"
 descript = "Linkding is a self-hosted bookmark manager that keeps your collection on your own TNAS. Save links with the browser extension, a bookmarklet or the REST API and Linkding fetches the page title, description and favicon for you. Tags, notes and full-text search over titles, descriptions and notes make even large collections easy to browse, and bookmarks can be imported from or exported to the Netscape HTML file that every browser understands.<br/><br/>Everything is kept in one SQLite database inside the application data directory, so a backup is a copy of a single folder and no external database is needed. The service runs as an isolated non-root user and is reachable on port 10002. Page snapshots, preview images and automatic tagging are disabled because the container runs without root privileges."
-release_note = "1. Initial release."
-important = "Sign in with user admin. On first start a random password is generated inside the application data directory, in the hidden file data/.admin_password - read it there and change it after the first login. Docker Engine must be installed and enabled from the TOS App Center."
+release_note = "1.0.2: initial release."
+important = "Sign in with user admin. On first start a random password is generated inside the application data directory, in the hidden file data/.admin_password - read it there and change it after the first login. Docker Engine must be installed and enabled from the TOS App Center. License: MIT. Source code, notices and privacy policy: https://github.com/waskevin/linkding"
 
 [zh-cn]
 name = "Linkding"
 auth = "sissbruecker"
 descript = "Linkding 是运行在 TNAS 上的自建书签管理器，把散落在各个浏览器里的收藏集中到自己的设备上。可以通过浏览器扩展、书签小工具（bookmarklet）或 REST API 保存链接，保存时会自动抓取网页标题、描述与图标；再用标签、备注和全文检索（标题、描述、备注）把链接找回来，收藏也能导入导出为各浏览器通用的 Netscape HTML 文件。<br/><br/>所有数据都存放在应用数据目录中的一个 SQLite 数据库里，备份只需复制一个目录，无需额外安装数据库。服务以独立的非 root 用户运行，网页界面端口为 10002。由于容器以非 root 身份运行，网页快照、预览图和自动打标签功能不可用。"
-release_note = "1. Initial release."
-important = "使用用户名 admin 登录。首次启动时会在应用数据目录的隐藏文件 data/.admin_password 中生成一个随机密码，请读取该文件并在首次登录后修改密码。需先在应用中心安装并启用 DockerEngine。"
+release_note = "1.0.2: initial release."
+important = "使用用户名 admin 登录。首次启动时会在应用数据目录的隐藏文件 data/.admin_password 中生成一个随机密码，请读取该文件并在首次登录后修改密码。需先在应用中心安装并启用 DockerEngine。 许可证：MIT。源码、版权声明与隐私政策：https://github.com/waskevin/linkding"
 
 [zh-hk]
 name = "Linkding"
 auth = "sissbruecker"
 descript = "Linkding 是運行在 TNAS 上的自建書籤管理員，把散落在各個瀏覽器裡的收藏集中到自己的裝置上。可以透過瀏覽器擴充功能、書籤小工具（bookmarklet）或 REST API 儲存連結，儲存時會自動抓取網頁標題、描述與圖示；再用標籤、備註和全文檢索（標題、描述、備註）把連結找回來，收藏也能匯入匯出為各瀏覽器通用的 Netscape HTML 檔案。<br/><br/>所有資料都存放在應用程式資料目錄中的一個 SQLite 資料庫裡，備份只需複製一個目錄，無需額外安裝資料庫。服務以獨立的非 root 使用者執行，網頁介面連接埠為 10002。由於容器以非 root 身分執行，網頁快照、預覽圖和自動加標籤功能無法使用。"
-release_note = "1. Initial release."
-important = "使用用户名 admin 登录。首次启动时会在应用数据目录的隐藏文件 data/.admin_password 中生成一个随机密码，请读取该文件并在首次登录后修改密码。需先在应用中心安装并启用 DockerEngine。"
+release_note = "1.0.2: initial release."
+important = "使用用户名 admin 登录。首次启动时会在应用数据目录的隐藏文件 data/.admin_password 中生成一个随机密码，请读取该文件并在首次登录后修改密码。需先在应用中心安装并启用 DockerEngine。 许可证：MIT。源码、版权声明与隐私政策：https://github.com/waskevin/linkding"
 
 [fr-fr]
 name = "Linkding"
 auth = "sissbruecker"
 descript = "Linkding is a self-hosted bookmark manager that keeps your collection on your own TNAS. Save links with the browser extension, a bookmarklet or the REST API and Linkding fetches the page title, description and favicon for you. Tags, notes and full-text search over titles, descriptions and notes make even large collections easy to browse, and bookmarks can be imported from or exported to the Netscape HTML file that every browser understands.<br/><br/>Everything is kept in one SQLite database inside the application data directory, so a backup is a copy of a single folder and no external database is needed. The service runs as an isolated non-root user and is reachable on port 10002. Page snapshots, preview images and automatic tagging are disabled because the container runs without root privileges."
-release_note = "1. Initial release."
-important = "Sign in with user admin. On first start a random password is generated inside the application data directory, in the hidden file data/.admin_password - read it there and change it after the first login. Docker Engine must be installed and enabled from the TOS App Center."
+release_note = "1.0.2: initial release."
+important = "Sign in with user admin. On first start a random password is generated inside the application data directory, in the hidden file data/.admin_password - read it there and change it after the first login. Docker Engine must be installed and enabled from the TOS App Center. License: MIT. Source code, notices and privacy policy: https://github.com/waskevin/linkding"
 
 [de-de]
 name = "Linkding"
 auth = "sissbruecker"
 descript = "Linkding is a self-hosted bookmark manager that keeps your collection on your own TNAS. Save links with the browser extension, a bookmarklet or the REST API and Linkding fetches the page title, description and favicon for you. Tags, notes and full-text search over titles, descriptions and notes make even large collections easy to browse, and bookmarks can be imported from or exported to the Netscape HTML file that every browser understands.<br/><br/>Everything is kept in one SQLite database inside the application data directory, so a backup is a copy of a single folder and no external database is needed. The service runs as an isolated non-root user and is reachable on port 10002. Page snapshots, preview images and automatic tagging are disabled because the container runs without root privileges."
-release_note = "1. Initial release."
-important = "Sign in with user admin. On first start a random password is generated inside the application data directory, in the hidden file data/.admin_password - read it there and change it after the first login. Docker Engine must be installed and enabled from the TOS App Center."
+release_note = "1.0.2: initial release."
+important = "Sign in with user admin. On first start a random password is generated inside the application data directory, in the hidden file data/.admin_password - read it there and change it after the first login. Docker Engine must be installed and enabled from the TOS App Center. License: MIT. Source code, notices and privacy policy: https://github.com/waskevin/linkding"
 
 [it-it]
 name = "Linkding"
 auth = "sissbruecker"
 descript = "Linkding is a self-hosted bookmark manager that keeps your collection on your own TNAS. Save links with the browser extension, a bookmarklet or the REST API and Linkding fetches the page title, description and favicon for you. Tags, notes and full-text search over titles, descriptions and notes make even large collections easy to browse, and bookmarks can be imported from or exported to the Netscape HTML file that every browser understands.<br/><br/>Everything is kept in one SQLite database inside the application data directory, so a backup is a copy of a single folder and no external database is needed. The service runs as an isolated non-root user and is reachable on port 10002. Page snapshots, preview images and automatic tagging are disabled because the container runs without root privileges."
-release_note = "1. Initial release."
-important = "Sign in with user admin. On first start a random password is generated inside the application data directory, in the hidden file data/.admin_password - read it there and change it after the first login. Docker Engine must be installed and enabled from the TOS App Center."
+release_note = "1.0.2: initial release."
+important = "Sign in with user admin. On first start a random password is generated inside the application data directory, in the hidden file data/.admin_password - read it there and change it after the first login. Docker Engine must be installed and enabled from the TOS App Center. License: MIT. Source code, notices and privacy policy: https://github.com/waskevin/linkding"
 
 [es-es]
 name = "Linkding"
 auth = "sissbruecker"
 descript = "Linkding is a self-hosted bookmark manager that keeps your collection on your own TNAS. Save links with the browser extension, a bookmarklet or the REST API and Linkding fetches the page title, description and favicon for you. Tags, notes and full-text search over titles, descriptions and notes make even large collections easy to browse, and bookmarks can be imported from or exported to the Netscape HTML file that every browser understands.<br/><br/>Everything is kept in one SQLite database inside the application data directory, so a backup is a copy of a single folder and no external database is needed. The service runs as an isolated non-root user and is reachable on port 10002. Page snapshots, preview images and automatic tagging are disabled because the container runs without root privileges."
-release_note = "1. Initial release."
-important = "Sign in with user admin. On first start a random password is generated inside the application data directory, in the hidden file data/.admin_password - read it there and change it after the first login. Docker Engine must be installed and enabled from the TOS App Center."
+release_note = "1.0.2: initial release."
+important = "Sign in with user admin. On first start a random password is generated inside the application data directory, in the hidden file data/.admin_password - read it there and change it after the first login. Docker Engine must be installed and enabled from the TOS App Center. License: MIT. Source code, notices and privacy policy: https://github.com/waskevin/linkding"
 
 [hu-hu]
 name = "Linkding"
 auth = "sissbruecker"
 descript = "Linkding is a self-hosted bookmark manager that keeps your collection on your own TNAS. Save links with the browser extension, a bookmarklet or the REST API and Linkding fetches the page title, description and favicon for you. Tags, notes and full-text search over titles, descriptions and notes make even large collections easy to browse, and bookmarks can be imported from or exported to the Netscape HTML file that every browser understands.<br/><br/>Everything is kept in one SQLite database inside the application data directory, so a backup is a copy of a single folder and no external database is needed. The service runs as an isolated non-root user and is reachable on port 10002. Page snapshots, preview images and automatic tagging are disabled because the container runs without root privileges."
-release_note = "1. Initial release."
-important = "Sign in with user admin. On first start a random password is generated inside the application data directory, in the hidden file data/.admin_password - read it there and change it after the first login. Docker Engine must be installed and enabled from the TOS App Center."
+release_note = "1.0.2: initial release."
+important = "Sign in with user admin. On first start a random password is generated inside the application data directory, in the hidden file data/.admin_password - read it there and change it after the first login. Docker Engine must be installed and enabled from the TOS App Center. License: MIT. Source code, notices and privacy policy: https://github.com/waskevin/linkding"
 
 [ja-jp]
 name = "Linkding"
 auth = "sissbruecker"
 descript = "Linkding is a self-hosted bookmark manager that keeps your collection on your own TNAS. Save links with the browser extension, a bookmarklet or the REST API and Linkding fetches the page title, description and favicon for you. Tags, notes and full-text search over titles, descriptions and notes make even large collections easy to browse, and bookmarks can be imported from or exported to the Netscape HTML file that every browser understands.<br/><br/>Everything is kept in one SQLite database inside the application data directory, so a backup is a copy of a single folder and no external database is needed. The service runs as an isolated non-root user and is reachable on port 10002. Page snapshots, preview images and automatic tagging are disabled because the container runs without root privileges."
-release_note = "1. Initial release."
-important = "Sign in with user admin. On first start a random password is generated inside the application data directory, in the hidden file data/.admin_password - read it there and change it after the first login. Docker Engine must be installed and enabled from the TOS App Center."
+release_note = "1.0.2: initial release."
+important = "Sign in with user admin. On first start a random password is generated inside the application data directory, in the hidden file data/.admin_password - read it there and change it after the first login. Docker Engine must be installed and enabled from the TOS App Center. License: MIT. Source code, notices and privacy policy: https://github.com/waskevin/linkding"
 
 [ko-kr]
 name = "Linkding"
 auth = "sissbruecker"
 descript = "Linkding is a self-hosted bookmark manager that keeps your collection on your own TNAS. Save links with the browser extension, a bookmarklet or the REST API and Linkding fetches the page title, description and favicon for you. Tags, notes and full-text search over titles, descriptions and notes make even large collections easy to browse, and bookmarks can be imported from or exported to the Netscape HTML file that every browser understands.<br/><br/>Everything is kept in one SQLite database inside the application data directory, so a backup is a copy of a single folder and no external database is needed. The service runs as an isolated non-root user and is reachable on port 10002. Page snapshots, preview images and automatic tagging are disabled because the container runs without root privileges."
-release_note = "1. Initial release."
-important = "Sign in with user admin. On first start a random password is generated inside the application data directory, in the hidden file data/.admin_password - read it there and change it after the first login. Docker Engine must be installed and enabled from the TOS App Center."
+release_note = "1.0.2: initial release."
+important = "Sign in with user admin. On first start a random password is generated inside the application data directory, in the hidden file data/.admin_password - read it there and change it after the first login. Docker Engine must be installed and enabled from the TOS App Center. License: MIT. Source code, notices and privacy policy: https://github.com/waskevin/linkding"
 
 [pl-pl]
 name = "Linkding"
 auth = "sissbruecker"
 descript = "Linkding is a self-hosted bookmark manager that keeps your collection on your own TNAS. Save links with the browser extension, a bookmarklet or the REST API and Linkding fetches the page title, description and favicon for you. Tags, notes and full-text search over titles, descriptions and notes make even large collections easy to browse, and bookmarks can be imported from or exported to the Netscape HTML file that every browser understands.<br/><br/>Everything is kept in one SQLite database inside the application data directory, so a backup is a copy of a single folder and no external database is needed. The service runs as an isolated non-root user and is reachable on port 10002. Page snapshots, preview images and automatic tagging are disabled because the container runs without root privileges."
-release_note = "1. Initial release."
-important = "Sign in with user admin. On first start a random password is generated inside the application data directory, in the hidden file data/.admin_password - read it there and change it after the first login. Docker Engine must be installed and enabled from the TOS App Center."
+release_note = "1.0.2: initial release."
+important = "Sign in with user admin. On first start a random password is generated inside the application data directory, in the hidden file data/.admin_password - read it there and change it after the first login. Docker Engine must be installed and enabled from the TOS App Center. License: MIT. Source code, notices and privacy policy: https://github.com/waskevin/linkding"
 
 [ru-ru]
 name = "Linkding"
 auth = "sissbruecker"
 descript = "Linkding is a self-hosted bookmark manager that keeps your collection on your own TNAS. Save links with the browser extension, a bookmarklet or the REST API and Linkding fetches the page title, description and favicon for you. Tags, notes and full-text search over titles, descriptions and notes make even large collections easy to browse, and bookmarks can be imported from or exported to the Netscape HTML file that every browser understands.<br/><br/>Everything is kept in one SQLite database inside the application data directory, so a backup is a copy of a single folder and no external database is needed. The service runs as an isolated non-root user and is reachable on port 10002. Page snapshots, preview images and automatic tagging are disabled because the container runs without root privileges."
-release_note = "1. Initial release."
-important = "Sign in with user admin. On first start a random password is generated inside the application data directory, in the hidden file data/.admin_password - read it there and change it after the first login. Docker Engine must be installed and enabled from the TOS App Center."
+release_note = "1.0.2: initial release."
+important = "Sign in with user admin. On first start a random password is generated inside the application data directory, in the hidden file data/.admin_password - read it there and change it after the first login. Docker Engine must be installed and enabled from the TOS App Center. License: MIT. Source code, notices and privacy policy: https://github.com/waskevin/linkding"
 
 [tr-tr]
 name = "Linkding"
 auth = "sissbruecker"
 descript = "Linkding is a self-hosted bookmark manager that keeps your collection on your own TNAS. Save links with the browser extension, a bookmarklet or the REST API and Linkding fetches the page title, description and favicon for you. Tags, notes and full-text search over titles, descriptions and notes make even large collections easy to browse, and bookmarks can be imported from or exported to the Netscape HTML file that every browser understands.<br/><br/>Everything is kept in one SQLite database inside the application data directory, so a backup is a copy of a single folder and no external database is needed. The service runs as an isolated non-root user and is reachable on port 10002. Page snapshots, preview images and automatic tagging are disabled because the container runs without root privileges."
-release_note = "1. Initial release."
-important = "Sign in with user admin. On first start a random password is generated inside the application data directory, in the hidden file data/.admin_password - read it there and change it after the first login. Docker Engine must be installed and enabled from the TOS App Center."
+release_note = "1.0.2: initial release."
+important = "Sign in with user admin. On first start a random password is generated inside the application data directory, in the hidden file data/.admin_password - read it there and change it after the first login. Docker Engine must be installed and enabled from the TOS App Center. License: MIT. Source code, notices and privacy policy: https://github.com/waskevin/linkding"
 
 [pt-pt]
 name = "Linkding"
 auth = "sissbruecker"
 descript = "Linkding is a self-hosted bookmark manager that keeps your collection on your own TNAS. Save links with the browser extension, a bookmarklet or the REST API and Linkding fetches the page title, description and favicon for you. Tags, notes and full-text search over titles, descriptions and notes make even large collections easy to browse, and bookmarks can be imported from or exported to the Netscape HTML file that every browser understands.<br/><br/>Everything is kept in one SQLite database inside the application data directory, so a backup is a copy of a single folder and no external database is needed. The service runs as an isolated non-root user and is reachable on port 10002. Page snapshots, preview images and automatic tagging are disabled because the container runs without root privileges."
-release_note = "1. Initial release."
-important = "Sign in with user admin. On first start a random password is generated inside the application data directory, in the hidden file data/.admin_password - read it there and change it after the first login. Docker Engine must be installed and enabled from the TOS App Center."
+release_note = "1.0.2: initial release."
+important = "Sign in with user admin. On first start a random password is generated inside the application data directory, in the hidden file data/.admin_password - read it there and change it after the first login. Docker Engine must be installed and enabled from the TOS App Center. License: MIT. Source code, notices and privacy policy: https://github.com/waskevin/linkding"
