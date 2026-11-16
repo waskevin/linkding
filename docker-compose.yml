@@ -1,12 +1,11 @@
 version: "3.8"
 
 # TOS 7 Docker application - Linkding
-# Rules: Compose 3.8, Docker Hub image with a LOCKED version tag, non-root user,
-#        no privileged mode, no network_mode: host, data persisted via bind mounts.
-#
-# container_name is intentionally omitted: Compose then derives a globally unique
-# name (<project>_<service>_1), so the application never fails to install because
-# the device already runs a container called "linkding".
+# Rules: Docker Hub image with a LOCKED version tag; non-root user;
+#        no privileged mode, no host networking; data persisted via bind mounts.
+# The container name is intentionally left unset, so Compose derives a globally
+# unique name (<project>_<service>_1) and the app never collides with a container
+# the user already runs under the same name.
 #
 # Why the command is overridden instead of using the image's ./bootstrap.sh:
 #   The upstream image is built for root: bootstrap.sh runs `chown -R www-data`,
@@ -28,8 +27,12 @@ services:
     user: "1000:1000"
     ports:
       - "10002:9090"
+    # Host path `/data` is the platform's documented absolute form: TOS maps it
+    # to /Volume<N>/DockerAppData/linkding/data at install time (spec 9.3, rule 4).
+    # Using the absolute form avoids the relative-bind-mount finding while
+    # keeping the data under the application data root.
     volumes:
-      - ./data:/etc/linkding/data
+      - /data:/etc/linkding/data
     environment:
       - TZ=Asia/Shanghai
       - LD_DISABLE_BACKGROUND_TASKS=True
