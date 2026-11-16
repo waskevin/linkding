@@ -4,7 +4,7 @@
 set -e
 
 APPID=linkding
-VERSION=1.0.0
+VERSION=1.0.2
 
 tar -czf "${APPID}.tar.gz" config.ini "${APPID}.lang" "${APPID}.svg" docker-compose.yml
 sha256sum "${APPID}.tar.gz" > "${APPID}.tar.gz.sha256"
